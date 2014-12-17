@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item 
+        android:id="@+id/action_scancomputer"
+        android:orderInCategory="70"
+        android:showAsAction="ifRoom"        
+        android:title="@string/action_scan_computer"
+        android:icon="@drawable/ic_menu_scan_computer"
+        />
+    
+    <item 
+        android:id="@+id/action_newcomputer"
+        android:orderInCategory="80"
+        android:showAsAction="ifRoom"        
+        android:title="@string/action_new_computer"
+        android:icon="@drawable/ic_menu_new_computer"
+        />
+    
+    <item 
+        android:id="@+id/action_refresh"
+        android:orderInCategory="90"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_refresh"
+        android:icon="@drawable/ic_menu_refresh"/>
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>

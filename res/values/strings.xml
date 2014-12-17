@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Remote Locker</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_new_computer">Add new computer</string>
+	<string name="action_edit_computer">Edit computer</string>
+	<string name="action_reconnect">Reconnect</string>
+	
+    <string-array name="action_list">
+        <item>Local</item>
+        <item>Remote</item>
+    </string-array>
+    <item name="TAG_LIST_ITEM_DATA" type="id">353</item>
+    <string name="empty_data">Please add new computer</string>
+    <string name="remote_btn_unlock_text">Unlock</string>
+    <string name="remote_btn_lock_text">Lock</string>
+    <string name="remote_btn_shutdown_text">Shutdown</string>    
+    <string name="remotelocker_server_port">63814</string>
+    <string name="bundle_computer_id">com.itexplore.remotelocker.bundle.computer.id</string>
+    <string name="bundle_computer_name">com.itexplore.remotelocker.bundle.computer.name</string>
+    <string name="bundle_computer_ip">com.itexplore.remotelocker.bundle.computer.ip</string>
+    <string name="bundle_computer">com.itexplore.remotelocker.bundle.computer</string>
+    <string name="remote_network_cannot_connect">Can\'t connect to RemoteLocker on \'%s\'</string>
+    <string name="remote_network_cannot_resolve_host_name">Your computer IP address not valid</string>
+    <string name="bundle_computer_idcode">com.itexplore.remotelocker.bundle.computer.identifycode</string>
+    <string name="remote_reject_login">Can\'t authenticate with RemoteLocker on \'%s\'</string>
+    <string name="app_preferences_key">com.itexplore.remotelocker.app_preferences</string>
+    <string name="unlock_request_dialog_msg">Approve \'Unlock request\'?</string>
+    <string name="unlock_request_dialog_title">Unlock Request</string>
+    <string name="unlock_request_dialog_ok">Agree</string>
+    <string name="unlock_request_dialog_cancel">Disagree</string>
+    <string name="computer_dialog_add_title">New Computer</string>
+    <string name="computer_dialog_edit_title">Edit Computer</string>
+    <string name="computer_dialog_ok">Save</string>
+    <string name="computer_dialog_cancel">Cancel</string>
+    <string name="computer_dialog_hint_name">Your computer name (optional)</string>
+    <string name="computer_dialog_hint_ip">Your computer IP</string>
+    <string name="computer_dialog_hint_idcode">Your computer identify code</string>
+    <string name="computer_dialog_type_caption">Remote connecting?</string>
+    <string name="computer_dialog_add_success_msg">Add new computer success</string>
+    <string name="computer_dialog_edit_success_msg">Update computer success</string>
+    <string name="main_popupmenu_edit_title">Edit</string>
+    <string name="main_popupmenu_delete_title">Remove</string>
+    <string name="main_imgbtn_show_popupmenu_desc">Menu</string>
+    <string name="delele_dialog_title">Data can\'t restore!!</string>
+    <string name="delete_dialog_msg">Are you want to delete %d items ?</string>
+    <string name="delete_dialog_ok">Yes</string>
+    <string name="delete_dialog_cancel">No</string>
+    <string name="delete_success_msg">%d has been deleted</string>
+    <string name="db_proccess_error_msg">Data processing errors. Please try again!</string>
+    <string name="action_refresh">Refresh data</string>
+    <string name="remote_btn_app_close_text">Exit Application</string>
+    <string name="main_popupmenu_select_all_title">Chọn tất cả</string>
+    <string name="action_scan_computer">Auto scan local computer</string>
+    <string name="scan_computer_title">Pick a computer</string>
+    <string name="scan_computer_empty_msg">Nothing can found</string>
+    
+</resources>

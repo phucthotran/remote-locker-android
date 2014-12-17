@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+        <item android:id="@+id/main_mnuSelectAll" 
+            android:title="@string/main_popupmenu_select_all_title" 
+            android:icon="@drawable/ic_menu_select_all"/>
+        
+        <item android:id="@+id/main_mnuEditEntry" 
+            android:title="@string/main_popupmenu_edit_title" 
+            android:icon="@drawable/ic_menu_edit_computer"/>
+        
+        <item android:id="@+id/main_mnuDeleteEntry" 
+            android:title="@string/main_popupmenu_delete_title" 
+            android:icon="@drawable/ic_menu_delete"/>
+    
+</menu>

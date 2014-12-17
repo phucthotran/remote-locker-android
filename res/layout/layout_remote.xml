@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:orientation="vertical"
+    tools:context=".RemoteActivity">
+    
+    <TextView android:id="@+id/remote_tv_computer_name" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:padding="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center"/>
+    
+    <TextView android:id="@+id/remote_tv_computer_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="italic"
+        android:layout_gravity="center"/>    
+        
+    <Button
+        android:id="@+id/remote_btn_unlock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_btn_unlock"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="@string/remote_btn_unlock_text" />
+
+    <Button
+        android:id="@+id/remote_btn_lock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_btn_lock"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="@string/remote_btn_lock_text" />
+    
+    <Button
+        android:id="@+id/remote_btn_app_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_btn_app_close"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="@string/remote_btn_app_close_text" />
+
+    <Button
+        android:id="@+id/remote_btn_shutdown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_btn_shutdown"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="@string/remote_btn_shutdown_text"/>
+
+</LinearLayout>

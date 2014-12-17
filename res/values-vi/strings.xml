@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Remote Locker</string>
+    <string name="action_settings">Thiết lập</string>
+    <string name="action_new_computer">Thêm máy mới</string>
+	<string name="action_edit_computer">Sửa thông tin máy</string>
+	<string name="action_reconnect">Kết nối lại</string>
+	
+    <string-array name="action_list">
+        <item>Local</item>
+        <item>Remote</item>
+    </string-array>
+    <item name="TAG_LIST_ITEM_DATA" type="id">353</item>
+    <string name="empty_data">Không có dữ liệu</string>
+    <string name="remote_btn_unlock_text">Mở khóa</string>
+    <string name="remote_btn_lock_text">Khóa máy</string>
+    <string name="remote_btn_shutdown_text">Tắt máy</string>    
+    <string name="remotelocker_server_port">63814</string>
+    <string name="bundle_computer_id">com.itexplore.remotelocker.bundle.computer.id</string>
+    <string name="bundle_computer_name">com.itexplore.remotelocker.bundle.computer.name</string>
+    <string name="bundle_computer_ip">com.itexplore.remotelocker.bundle.computer.ip</string>
+    <string name="bundle_computer">com.itexplore.remotelocker.bundle.computer</string>
+    <string name="remote_network_cannot_connect">Không thể kết nối với ứng dụng RemoteLocker trên \'%s\'</string>
+    <string name="remote_network_cannot_resolve_host_name">Địa chỉ IP không hợp lệ</string>
+    <string name="bundle_computer_idcode">com.itexplore.remotelocker.bundle.computer.identifycode</string>
+    <string name="remote_reject_login">Không thể xác thực thông tin với ứng dụng RemoteLocker trên \'%s\'</string>
+    <string name="app_preferences_key">com.itexplore.remotelocker.app_preferences</string>
+    <string name="unlock_request_dialog_msg">Chấp nhận \'Yêu cầu mở khóa\'?</string>
+    <string name="unlock_request_dialog_title">Yêu Cầu Mở Khóa</string>
+    <string name="unlock_request_dialog_ok">Chấp nhận</string>
+    <string name="unlock_request_dialog_cancel">Từ chối</string>
+    <string name="computer_dialog_add_title">Thêm Máy</string>
+    <string name="computer_dialog_edit_title">Sửa Thông Tin Máy</string>
+    <string name="computer_dialog_ok">Lưu lại</string>
+    <string name="computer_dialog_cancel">Hủy</string>
+    <string name="computer_dialog_hint_name">Tên máy (tùy ý)</string>
+    <string name="computer_dialog_hint_ip">Địa chỉ IP</string>
+    <string name="computer_dialog_hint_idcode">Mã xác nhận</string>
+    <string name="computer_dialog_type_caption">Kết nối từ xa</string>
+    <string name="computer_dialog_add_success_msg">Thêm máy mới thành công</string>
+    <string name="computer_dialog_edit_success_msg">Cập nhật thông tin thành công</string>
+    <string name="main_popupmenu_edit_title">Sửa</string>
+    <string name="main_popupmenu_delete_title">Xóa</string>
+    <string name="main_imgbtn_show_popupmenu_desc">Trình đơn</string>
+    <string name="delele_dialog_title">Dữ Liệu Sẽ Không Thể Khôi Phục!!!</string>
+    <string name="delete_dialog_msg">Bạn có chắc muốn xóa %d mục này ?</string>
+    <string name="delete_dialog_ok">Có</string>
+    <string name="delete_dialog_cancel">Không</string>
+    <string name="delete_success_msg">%d đã xóa thành công</string>
+    <string name="db_proccess_error_msg">Có lỗi khi xử lí dữ liệu</string>
+    <string name="action_refresh">Cập nhật dữ liệu</string>
+    <string name="remote_btn_app_close_text">Thoát ứng dụng</string>
+    <string name="main_popupmenu_select_all_title">Select all</string>
+    <string name="action_scan_computer">Tự động dò máy Local</string>
+    <string name="scan_computer_title">Chọn 1 máy bất kì</string>
+    <string name="scan_computer_empty_msg">Không tìm thấy bất kì máy nào</string>
+    
+</resources>
